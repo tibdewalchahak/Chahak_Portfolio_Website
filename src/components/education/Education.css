@@ -44,7 +44,18 @@
 
 .education__calendar{
     font-size: var(--small-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+
+.education__grade{
+    font-size: var(--small-font-size);
+    color: var(--text-color);
     margin-bottom: var(--mb-2);
+}
+
+.uil-calendar-alt{
+    margin-right: var(--mb-0-5);
+    color: var(--text-color);
 }
 
 .education__rounder{

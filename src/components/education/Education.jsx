@@ -9,7 +9,7 @@ const Education = () => {
             <i className="uil uil-graduation-cap qualification__icon"></i>
             <span className="section__subtitle">My Journey</span>
         </div>
-        
+         
         <div className="education__container container">
             <div className="education__sections">
                 <div className="education__content education__content__active">
@@ -20,6 +20,7 @@ const Education = () => {
                             <div className="education__calendar">
                                 <i className="uil uil-calendar-alt"></i>2022 - 2026 
                             </div>
+                            <span className="education__grade">Current CGPA: 7.89</span>
                         </div>
                         <div>
                             <span className="education__rounder"></span>
@@ -34,6 +35,7 @@ const Education = () => {
                             <div className="education__calendar">
                                 <i className="uil uil-calendar-alt"></i>2020-2022
                             </div>
+                            
                         </div>
                         <div>
                             <span className="education__rounder"></span>

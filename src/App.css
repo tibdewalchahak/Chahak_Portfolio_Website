@@ -7,14 +7,19 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --hue: 0;
-  --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 100%);      
-  --title-color-dark: hsl(var(--hue), var(--sat), 60%); 
-  --text-color: hsl(var(--hue), var(--sat), 90%); 
-  --body-color: hsl(var(--hue), var(--sat), 15%);
-  --container-color: #222020;
+  --hue: 210;
+  --sat: 100%;
+  --title-color: #3B1E7A;      
+  --title-color-dark: #0A192F; 
+  --text-color: #0A192F; 
+  --body-color:  #FAF0E6;
+  --container-color: #0A192F;
 
+   /* Accent */
+  --accent-color: #64FFDA;      /* Cyan / Teal accent for highlights, buttons, links */
+
+  /* Optional neutrals */
+  --border-color: #E5E5E5;      /* Light borders or dividers */
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
 
@@ -55,7 +60,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--text-color);
-  background-image: url("assets/Background.jpeg");
+  /* background-image: url("assets/Background.jpeg"); */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
